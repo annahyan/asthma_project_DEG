@@ -14,7 +14,7 @@ ksource <- function(x, ...) {
 }
 
 ## ksource("analysis.Rmd")
-load("../shiny_input.RData")
+load("shiny_input.RData")
 
 cell_types = setNames(c("Alveolar macrophages", "Eosinophils"),
                       c("macro", "eos"))
